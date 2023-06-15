@@ -1,0 +1,25 @@
+{
+    "menu" : [
+        {
+            "name" : "matcha lavender latte",
+            "price" : "6",
+            "tags" : ["drink", "japanese", "matcha", "flower"],
+            "source" : "85C Bakery",
+            "image" : "85c1.jpg"
+        },
+        {
+            "name" : "mango mousse cake",
+            "price" : "24",
+            "tags" : ["dessert", "cake", "mango", "fruit"],
+            "source" : "85C Bakery",
+            "image" : "85c2.jpg"
+        },
+        {
+            "name" : "herb crust bread",
+            "price" : "3",
+            "tags" : ["japanese", "bread", "herbs"],
+            "source" : "85C Bakery",
+            "image" : "85c3.jpg"
+        }
+    ]
+}

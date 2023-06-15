@@ -1,0 +1,25 @@
+{
+    "menu" : [
+        {
+            "name" : "chocolate croissant",
+            "price" : "4",
+            "tags" : ["bread", "french", "chocolate"],
+            "source" : "Sam's Italian Bakery",
+            "image" : "sams1.jpg"
+        },
+        {
+            "name" : "sub sandwich",
+            "price" : "7",
+            "tags" : ["italian", "bread", "ham"],
+            "source" : "Sam's Italian Bakery",
+            "image" : "sams2.jpg"
+        },
+        {
+            "name" : "focaccia",
+            "price" : "6",
+            "tags" : ["tomato", "bread", "herbs"],
+            "source" : "Sam's Italian Bakery",
+            "image" : "sams3.jpg"
+        }
+    ]
+}

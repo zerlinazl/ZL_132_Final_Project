@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Zerlina Lai CS132 June 2023
+    Final Project
+    This is the feedback form and FAQ display page. Users can either choose to click to see the
+    FAQ, or just skip straight to leaving a message in the form input.
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="utils.js"></script>
+    <script defer src="features.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>FAQ/Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Dish Discovery</h1>
+        <nav>
+            <div>
+                <div><a href="index.html">Back to Main</a></div>
+            </div>
+        </nav>
+    </header>
+    <button id="cart"><a href="cart.html"><img src="../imgs/cart.jpg"></a></button>
+    <main>
+        <section>
+            <h2>FAQ</h2>
+            <div id="faq">
+                <button id="showfaq">Check out the FAQ!</button>
+            </div>
+            <p>Still have a question? Ask us below!</p>
+        </section>
+        <section id="feedback">
+            <h2>Contact Us</h2>
+            <h3>Please leave any feedback or questions here!</h3>
+            <form id="feedback-form">
+                <label for="name">Name: <input type="text" name="name"></label><br>
+                <label for="email">Email: <input type="text" name="email"></label><br>
+                <label for="message">Message: <textarea rows="5" cols="60" name="message" placeholder="Enter feedback:"></textarea></label><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+        <section id="privacy">
+            <h4>Privacy Policy:</h4>
+            <p>We store personal data only as necessary, and only as provided by you the user, to enable your 
+                shopping experience. No third parties have access to this data. By creating an account you
+            consent to the use of data you provide.</p>
+        </section>
+    </main>
+</body>
+</html>

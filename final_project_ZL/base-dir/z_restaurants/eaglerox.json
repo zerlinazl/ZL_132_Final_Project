@@ -1,0 +1,25 @@
+{
+    "menu" : [
+        {
+            "name" : "pad thai",
+            "price" : "12",
+            "tags" : ["thai", "noodles", "spicy"],
+            "source" : "Eagle Rox Thai",
+            "image" : "thai1.jpg"
+        },
+        {
+            "name" : "tom yum goong",
+            "price" : "11",
+            "tags" : ["thai", "soup", "spicy", "seafood"],
+            "source" : "Eagle Rox Thai",
+            "image" : "thai2.jpg"
+        },
+        {
+            "name" : "green curry",
+            "price" : "11",
+            "tags" : ["thai", "spicy", "rice", "curry", "chicken"],
+            "source" : "Eagle Rox Thai",
+            "image" : "thai3.jpg"
+        }
+    ]
+}

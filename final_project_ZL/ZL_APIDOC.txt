@@ -1,0 +1,4 @@
+Postman APIDOC for Zerlina's endpoints:
+https://documenter.getpostman.com/view/27150086/2s93sgVVax
+
+The rest of the endpoints are covered in Ashvin's apidoc.md.

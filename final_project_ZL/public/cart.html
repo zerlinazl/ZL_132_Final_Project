@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Zerlina Lai CS132 June 2023
+    Final Project 
+    This is the shopping cart display page. Uses local storage to store/retrieve cart items.
+    Checkout functionality not implemented.
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="utils.js"></script>
+    <script defer src="shoppingCart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <h1>Dish Discovery</h1>
+        <nav>
+            <div>
+                <div><a href="index.html">Back to Main</a></div>
+            </div>
+            <div id="login-btn">
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Cart</h2><hr>
+        <button id="clear">Clear Cart</button>
+        <div>
+        <section>
+            <div class="cart-subhead">
+                <h3>Item</h3>
+                <p>Qty.</p>
+                <p>Price</p>
+            </div>
+        </section>
+        <section id="total-info">
+            <button>Checkout</button>
+        </section>
+        </div>
+    </main>
+</body>
+</html>

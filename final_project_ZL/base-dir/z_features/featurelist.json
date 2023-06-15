@@ -1,0 +1,19 @@
+{
+    "features" : [
+        {
+            "theme" : "herb garden",
+            "descrip" : "Let the scent of fresh herbs bring some adventurous flavor to your life. Show offer on site for free fresh herbs! (Participating locations only.)",
+            "tags" : ["herbs"]
+        },
+        {
+            "theme" : "floral flavors",
+            "descrip" : "Experience the tastes of spring! 20% off for these featured floral treats.",
+            "tags" : ["flower"]
+        },
+        {
+            "theme" : "spicy soup",
+            "descrip" : "Sharing is Caring: buy 2 get 1 free! Taste buds feeling bored? Shock them back to life with some spicy soups!",
+            "tags" : ["spicy", "soup"]
+        }
+    ]
+}

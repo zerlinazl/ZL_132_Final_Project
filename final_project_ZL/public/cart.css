@@ -1,0 +1,30 @@
+/* Zerlina Lai CS132 June 2023
+This is the styles page for the shopping cart html page, for my website featuring
+local restaurants' dishes. */
+h2, #total-info {
+    margin: 20px;
+}
+
+hr {
+    margin: 0px 20px 20px 20px;
+}
+
+main > div, .cart-subhead, .cart-entry {
+    display: flex;
+}
+
+main > div, .cart-subhead, .cart-entry  {
+    justify-content: space-evenly;
+}
+
+.cart-subhead, .cart-entry {
+    min-width: 400px;
+    text-align: left;
+    align-items: center;
+}
+
+#total-info {
+    text-align: right;
+    border: 1px solid gray;
+    padding: 20px 50px 20px 60px;
+}

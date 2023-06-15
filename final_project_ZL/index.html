@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- 
+    Final Project Proposal Code
+    Author: Zerlina Lai
+    This is the homepage for my e-commerce website that allows users to 
+    order food online with special deals/discounts. Focus on local 
+    restaurants in an x mile radius of Pasadena, with occasional "discounts" 
+    offered in select places or for select dishes to encourage people 
+    to try new things.
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="utils.js"></script>
+    <script defer src="foodfinder.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Dish Discovery</title>
+</head>
+<body>
+    <header>
+        <!-- General TODO: styling. font pairings, color palettes etc. -->
+        <h1>Dish Discovery</h1>
+        <nav>
+            <div>
+                <div><a href="restaurants.html">Restaurants</a></div>
+                <div><a href="cafes.html">Cafes</a></div>
+                <div><a href="bars.html">Bars</a></div>
+            </div>
+            <div id="login-btn">
+                <!-- TODO will implement login button functionality using javascript -->
+                <p>Login</p>
+            </div>
+        </nav>
+        <!-- TODO: add icon for cart -->
+    </header>
+    <main>
+        <article>
+            <h2>Featured Dishes</h2>
+            <div class= "featured">
+                <!-- TODO: these cards will not be hardcoded in the end, will be drawn from the api.
+                    Clicking on these FEATURED cards will take you directly to the restaurant's page, where you can then add 
+                    the item of interest to your cart. Any special discount will also appear at the top of the page. -->
+                <div class="card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <h3>Restaurant Name</h3>
+                    <p>Details about this restaurant</p>
+                </div>
+                <div class="card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <h3>Restaurant Name</h3>
+                    <p>Details about this place</p>
+                </div>
+                <div class="card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <h3>Restaurant Name</h3>
+                    <p>Details about this place</p>
+                </div>
+            </div>
+        </article>
+        <article>
+            <!-- Clicking on these CATEGORY cards will take you to a page listing restaurants of that cuisine, 
+                where you can then navigate to a specific restaurant's page and add the item of interest to your cart. 
+                Any special discount relevant to the cuisine will also appear at the top of the page. -->
+            <h2>Search by Cuisine</h2>
+            <div class="card-section">
+                <div class="cuisine card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <p>Cuisine 1</p>
+                </div>
+                <div class="cuisine card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <p>Cuisine 1</p>
+                </div>
+                <div class="cuisine card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <p>Cuisine 1</p>
+                </div>
+                <div class="cuisine card">
+                    <img src="imgs/img1.jpg" alt="TODO">
+                    <p>Cuisine 1</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <!-- TODO -->
+    </footer>
+</body>
+</html>

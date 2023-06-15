@@ -1,0 +1,173 @@
+/* Zerlina lai CS132 June 2023
+    This is the main CSS styling page for my restaurant dish feature e-commerce site.
+    Aims for a simple but put-together look for the site.
+*/
+
+body, button {
+    font-family: 'Libre Baskerville', serif;
+}
+
+button {
+    padding: 10px;
+}
+
+nav, .card-section, .featured {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body, h2, #login-btn p, #login-btn  {
+    margin: 0;
+}
+
+article h2, article > div > p, h2, .card > h3, .card >p {
+    text-align: left;
+}
+
+h1 {
+    margin: 40px 0px 40px 0px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+main, h1, .cuisine p {
+    padding: 20px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav, footer {
+    background-color: #cfdfa2;
+}
+
+nav > div {
+    display: inherit;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+nav > div > div {
+    margin-left: 20px;
+    
+}
+
+nav a:link, nav a:visited {
+    margin: 10px 10px 10px 20px;
+}
+
+article {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+img {
+    height: 200px; 
+    object-fit: cover;
+}
+
+img, #msgbox{
+    width: 200px; 
+}
+
+form input {
+    margin: 5px;
+}
+
+footer {
+    line-height: 100px;
+}
+
+.featured, .card-section {
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 10px;
+}
+
+.card p , main, h1, .cuisine p, .card h3, footer {
+    text-align: center;
+}
+
+.hidden, .focusedCard button {
+    display: none;
+}
+
+.focusedCard {
+    margin: 40px;
+}
+
+.focusedCard p, .card p , article h2 {
+    text-transform: capitalize;
+}
+
+.featured {
+    margin-bottom: 60px;
+}
+
+.featured .card {
+    min-width: 300px;
+}
+
+.card-section .card {
+    min-width: 150px;
+}
+
+.featured img {
+    max-width: 300px;
+}
+
+.card-section img {
+    max-width: 150px;
+}
+
+.cuisine {
+    border: none;
+}
+
+#login-btn {
+    margin-right: 20px;
+}
+
+#cart {
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding-right: 4px;
+    padding-left: 0px;
+}
+
+#cart:hover, nav > div > div:hover  {
+    cursor:pointer;
+}
+
+#cart img {
+    margin: auto;
+    margin-top: -11px;
+}
+
+#cart img, #cart  {
+    height: 60px;
+    width: 60px;
+}
+
+#privacy {
+    color: gray;
+}
+
+#register p, #login p, #register button, #login button, nav > div > div:hover {
+    color:teal;
+}
+
+#msgbox {
+    height: 100px;
+}

@@ -1,0 +1,24 @@
+{
+    "faq" : [
+        {
+            "question" : "What are the menu items displayed?",
+            "answer" : "Each of the features has been selected to highlight an assortment of menu options from nearby restaurants and bakeries. These are all displayed on the main page!"
+        },
+        {
+            "question" : "How can I see featured options from only bakeries?",
+            "answer" : "In the navigation bar, click on the desired filter to see features from either restaurants or bakeries."
+        },
+        {
+            "question" : "Do you feature other types of eateries?",
+            "answer" : "As of now, no. We are working on expanding our service!"
+        },
+        {
+            "question" : "Can a restaurant request that its items be featured?",
+            "answer" : "Please leave a message through our contact page!"
+        },
+        {
+            "question" : "How can I request a theme for the next feature set?",
+            "answer" : "Visit our contact page and leave a message with any suggestions!"
+        }
+    ]
+}

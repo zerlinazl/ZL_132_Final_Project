@@ -1,0 +1,25 @@
+{
+    "menu" : [
+        {
+            "name" : "fruit tart",
+            "price" : "7",
+            "tags" : ["dessert", "cake", "fruit"],
+            "source" : "Porto's Cafe",
+            "image" : "portos1.jpg"
+        },
+        {
+            "name" : "empanada",
+            "price" : "6",
+            "tags" : ["beef", "bread"],
+            "source" : "Porto's Cafe",
+            "image" : "portos2.jpg"
+        },
+        {
+            "name" : "cheese roll",
+            "price" : "4",
+            "tags" : ["cheese", "bread"],
+            "source" : "Porto's Cafe",
+            "image" : "portos3.jpg"
+        }
+    ]
+}

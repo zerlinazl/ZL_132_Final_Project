@@ -1,0 +1,32 @@
+{
+    "menu" : [
+        {
+            "name" : "miso salmon",
+            "price" : "18",
+            "tags" : ["american", "japanese", "seafood", "miso"],
+            "source" : "Assembly Pasta",
+            "image" : "pasta1.jpg"
+        },
+        {
+            "name" : "chocolate rose cheesecake",
+            "price" : "10",
+            "tags" : ["american", "dessert", "chocolate", "flower"],
+            "source" : "Assembly Pasta",
+            "image" : "pasta2.jpg"
+        },
+        {
+            "name" : "basil shrimp alfredo pasta",
+            "price" : "17",
+            "tags" : ["american", "italian", "pasta", "herbs", "seafood"],
+            "source" : "Assembly Pasta",
+            "image" : "pasta3.jpg"
+        },
+        {
+            "name" : "sausage gumbo",
+            "price" : "20",
+            "tags" : ["american", "southern", "spicy", "soup"],
+            "source" : "Assembly Pasta",
+            "image" : "pasta4.jpg"
+        }
+    ]
+}

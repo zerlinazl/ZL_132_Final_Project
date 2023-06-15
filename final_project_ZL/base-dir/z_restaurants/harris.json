@@ -1,0 +1,25 @@
+{
+    "menu" : [
+        {
+            "name" : "t-bone steak",
+            "price" : "60",
+            "tags" : ["american", "steak", "beef"],
+            "source" : "Harris Ranch Restaurant",
+            "image" : "harris1.jpg" 
+        },
+        {
+            "name" : "pot roast",
+            "price" : "22",
+            "tags" : ["american", "beef", "stew"],
+            "source" : "Harris Ranch Restaurant",
+            "image" : "harris2.jpg" 
+        },
+        {
+            "name" : "chuckwagon soup",
+            "price" : "10",
+            "tags" : ["american", "beef", "soup", "herbs", "vegetables"],
+            "source" : "Harris Ranch Restaurant",
+            "image" : "harris3.jpg"
+        }
+    ]
+}

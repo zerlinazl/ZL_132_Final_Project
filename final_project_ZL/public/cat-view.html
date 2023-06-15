@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Zerlina Lai
+    Final Project Proposal
+    This is a page to display things by category
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="utils.js"></script>
+    <script defer src="features.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Login/Register</title>
+</head>
+<body>
+    <header>
+        <h1>Dish Discovery</h1>
+        <nav>
+            <!-- May or may not keep this sort-by-type functionality in final version.
+                If kept, it will take you to a page listing places to eat belonging to the respective category. -->
+            <div>
+                <div><a href="index.html">Back to Main</a></div>
+            </div>
+        </nav>
+    </header>
+    <button id="cart"><a href="cart.html"><img src="../imgs/cart.jpg"></a></button>
+    <main>
+        <section id="register">
+            <h2>Register a New Account</h2>
+            <h3>Stay updated and get exclusive offers!</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+            <p>Already have an account?</p><button class="reg">Click here to log in.</button>
+        </section>
+        <section id="login" class="hidden">
+            <h2>Log In</h2>
+            <h3>Welcome back!</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              <p>Don't have an account?</p><button class="reg">Click here to register.</button>
+        </section>
+        <section>
+            <h4>Privacy Policy:</h4>
+            <p>We store personal data only as necessary, and only as provided by you the user, to enable your 
+                shopping experience. No third parties have access to this data. By creating an account you
+            consent to the use of data you provide.</p>
+        </section>
+    </main>
+</body>
+</html>
